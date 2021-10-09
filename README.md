@@ -12,7 +12,7 @@ Use [UNPKG](https://unpkg.com/wavesurfer.js) or [CDN](https://cdnjs.cloudflare.c
 
 ## Usage
 
-```python
+```javascript
 var wavesurfer = WaveSurfer.create({
     container: '#waveform',
     waveColor: 'violet',
