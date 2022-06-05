@@ -12,13 +12,12 @@ Use [UNPKG](https://unpkg.com/wavesurfer.js) or [CDN](https://cdnjs.cloudflare.c
 
 ## Usage
 
-```javascript
-var wavesurfer = WaveSurfer.create({
-    container: '#waveform',
-    waveColor: 'violet',
-    progressColor: 'purple'
-});
-wavesurfer.load('audio.mp3');
+```html
+<div class="items__layer" data-depth="0.85">
+    <div class="items__item">
+        <img src="img/Comet.png" alt="img">
+    </div>
+</div>
 ```
 
 ## Subscribe
