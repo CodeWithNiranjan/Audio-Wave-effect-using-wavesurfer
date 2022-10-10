@@ -4,25 +4,32 @@ wavesurfer.js is an HTML 5 audio player and waveform visualizer, made with JavaS
 
 ## Installation
 
-Use [UNPKG](https://unpkg.com/wavesurfer.js) or [CDN](https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.0.52/wavesurfer.min.js).
-
 ```javascript
-<script src="https://unpkg.com/wavesurfer.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
 ```
 
 ## Usage
 
-```javascript
-var wavesurfer = WaveSurfer.create({
-    container: '#waveform',
-    waveColor: 'violet',
-    progressColor: 'purple'
-});
-wavesurfer.load('audio.mp3');
+```html
+<!-- Add the Play CDN script tag to the <head> of your HTML file, and start using Tailwind’s utility classes to style your content. -->
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
+</html>
 ```
 
 
 ## Subscribe
-Please subscribe [CodeWithNiranjan](https://youtube.com/channel/UCzfQyi4_E-lS9ps3fVb0jlA)
+Please subscribe [CodeWithNiranjan](https://youtube.com/channel/CodeWithNiranjan)
 
 <h1>Thank You</h1>
